@@ -11,8 +11,8 @@ Feature: Add employee feature
    	And User click on submit button
    	Then User validate the new created employee 
       
-  #Scenario: Add employee with invalid details
-    #When User enters invalid employee details
-   #	And User click on submit button
-   #	Then User validate the error on adding employee process
+  Scenario: Add employee with invalid details
+    When User enters invalid employee details
+   	And User click on submit button
+   	Then User validate the error on adding employee process
 

@@ -30,6 +30,7 @@ public class AddEmpoloyeeSteps {
 	@Given("User gets logged in")
 	public void user_gets_logged_in() throws Exception {
 	   cm.login();
+	   ar.submit.click();
 	}
 
 	@Given("User redirects to Add employee page")
@@ -46,7 +47,7 @@ public class AddEmpoloyeeSteps {
 
 	@When("User click on submit button")
 	public void user_click_on_submit_button() {
-		ar.submit.click();
+		//ar.submit.click();
 	}
 
 	@Then("User validate the new created employee")
